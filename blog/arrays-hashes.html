@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog</title>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="../blog/stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../blog/stylesheets/blog-post.css">
+  </head>
+
+  <body>
+    <header>
+        <img src="imgs/head-shot.jpg" alt=Head-Shot>
+        <h2><span>J</span>on <span>O</span>. <span>S</span>chwartz</h2>
+        <p>Here are my thoughts on some of the amazing things I learned at Dev Bootcamp NYC</p>
+        <nav>
+            <a href="website-index.html">Home</a>
+            <a href="#">About Me</a>
+            <a href="#">Projects</a>
+            <a href="#">Resume</a>
+        </nav>
+    <!--Links to Contact Information-->
+        <div>
+          <a href="mailto:joschwartz93@gmail.com?subject=Reaching%20Out"><img src="imgs/email-logo.png" alt=Email></a>
+          
+          <a href="https://www.linkedin.com/in/jonoschwartz" target="_blank"><img src="imgs/linkedin-logo.png" alt=LinkedIn></a>
+          
+          <a href="https://github.com/JonSchwartz93" target="_blank"><img src="imgs/github-logo.png" alt=GitHub></a>
+          
+          <a href="#" target="_blank"><img src="imgs/facebook-logo.png" alt=FaceBook></a>
+         </div>
+    </header>
+    <section>
+        <h1>Arrays vs. Hashes</h1>
+        <h4>Sunday, January 3rd, 2016</h4>
+        <p>
+            Hello Readers! This week we got our first taste of programming with Ruby. Ruby, an object-oriented language, represents collections of objects by putting them inside container objects. Two built-in classes dominate the container-object landscape: arrays and hashes. 
+        </p>
+        <p>
+            An array is an ordered, integer-indexed list of objects. Arrays are used to store other objects. The contents of an array always remain in the same order unless you explicitly move objects around (or add/remove them). Arrays can contain virtually any Ruby object, including strings, integers, floats, or even other arrays. <br>
+            Syntax of an Array:
+            <pre><code>
+            array =  ['string', 47, ['I', 'am', 'an', 'array']]
+            </code></pre>
+        </p>
+        
+        <p>
+            On the other hand, a hash (aka dictionaries or associative arrays) ordered collections of objects (in previous versions of Ruby they were unordered collections). Hashes store objects in pairs, each pair consisting of a key and a value. You retrieve a value by means of the key. Hashes remember the order in which their keys were inserted; that’s the order in which the hash replays itself for you if you iterate through the pairs in it or print a string representation of it to the screen. NOTE: Keys are unique per hash: you can have only one key/value pair for any given key. <br>
+            Syntax of Hash:
+            <pre><code>
+            state_nicknames = {
+                :New York => "The Empire State",
+                :Vermont => "The Green Mountain State",
+                :Texas => "The Lone Star State"
+                :Florida => "The Sunshine State",
+                :California => "The Golden State"
+            }
+            </code></pre>
+        </p>
+        
+    </section>
+  </body>
+</html>
