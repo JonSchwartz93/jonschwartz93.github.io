@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog</title>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="../blog/stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../blog/stylesheets/blog-post.css">
+  </head>
+
+  <body>
+    <header>
+        <img src="imgs/head-shot.jpg" alt=Head-Shot>
+        <h2><span>J</span>on <span>O</span>. <span>S</span>chwartz</h2>
+        <p>Here are my thoughts on some of the amazing things I learned at Dev Bootcamp NYC</p>
+        <nav>
+            <a href="website-index.html">Home</a>
+            <a href="#">About Me</a>
+            <a href="#">Projects</a>
+            <a href="#">Resume</a>
+            <a href="blog_post-index.html">Blog</a>
+        </nav>
+    <!--Links to Contact Information-->
+        <div>
+          <a href="mailto:joschwartz93@gmail.com?subject=Reaching%20Out"><img src="imgs/email-logo.png" alt=Email></a>
+          
+          <a href="https://www.linkedin.com/in/jonoschwartz" target="_blank"><img src="imgs/linkedin-logo.png" alt=LinkedIn></a>
+          
+          <a href="https://github.com/JonSchwartz93" target="_blank"><img src="imgs/github-logo.png" alt=GitHub></a>
+          
+          <a href="#" target="_blank"><img src="imgs/facebook-logo.png" alt=FaceBook></a>
+         </div>
+    </header>
+    <section>
+        <h1>Ruby Enumerable Methods - '.partition'</h1>
+        <h4>Sunday, January 10th, 2016</h4>
+        <p>
+          This week at DBC we continued to expand our understanding of Ruby by building our own methods to achieve a variety of tasks. One area of focus was the Enumerable module (a module is essentially a container of methods). Enumerable is extremely versatile and particularly useful when building methods because it equips a user with a variety of ways to search and sort through a data structure (aka - an <a href="arrays-hashes.html">array or hash</a>.) The Enumerable module contains numerous useful methods, but one that I find particularly interesting is '.partition'.
+        </p>
+          Here is the description of '.partition' found in Ruby Docs:
+          <img src="imgs/partition.png">
+        <p>
+          Ruby Docs is often quite difficult to decipher, so let me break this down for you (for more information about reading Ruby Docs, <a href="http://mariabpiper.tumblr.com/post/116045895341/ruby-docs-for-newbs">click here</a>.) When '.partition' is called on a data structure, it returns an array comprised of two arrays - one array containing the elements for which the block of code evaluates to true, and the second array containing those elements for which the block returns false. Using the example above, '.partition' is called on a range of numbers, 1-6. The block of code is evaluating which numbers in that range are even, and thus returns one array ([2, 4, 6] = the "true" array), and another array containing the remaining numbers ([1, 3, 5] = the "false" array).
+        </p>
+    </section>
+  </body>
+</html>
