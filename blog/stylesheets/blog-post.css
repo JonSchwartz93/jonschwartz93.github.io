@@ -122,3 +122,11 @@ p img{
 	height: 12em;
 	padding: 1em;
 }
+
+section pre{
+	text-align: left;
+	line-height: 125%;
+	color: #ffffff;
+	margin-top: -15px;
+	margin-bottom: 5px;
+}
