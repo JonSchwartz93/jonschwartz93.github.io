@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog</title>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="../blog/stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../blog/stylesheets/blog-post.css">
+  </head>
+
+  <body>
+    <header>
+        <img src="imgs/head-shot.jpg" alt=Head-Shot>
+        <h2><span>J</span>on <span>O</span>. <span>S</span>chwartz</h2>
+        <p>Here are my thoughts on some of the amazing things I learned at Dev Bootcamp NYC</p>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../aboutme.html">About Me</a>
+            <a href="../projects/index.html">Projects</a>
+            <a href="#">Resume</a>
+            <a href="blog-homepage.html">Blog</a>
+        </nav>
+    <!--Links to Contact Information-->
+        <div>
+          <a href="mailto:joschwartz93@gmail.com?subject=Reaching%20Out"><img src="imgs/email-logo.png" alt=Email></a>
+          
+          <a href="https://www.linkedin.com/in/jonoschwartz" target="_blank"><img src="imgs/linkedin-logo.png" alt=LinkedIn></a>
+          
+          <a href="https://github.com/JonSchwartz93" target="_blank"><img src="imgs/github-logo.png" alt=GitHub></a>
+          
+          <a href="#" target="_blank"><img src="imgs/facebook-logo.png" alt=FaceBook></a>
+         </div>
+    </header>
+    <section>
+        <h1>Understanding CSS Properties: Margins, Borders, and Padding</h1>
+        <h4>Sunday, December 20th, 2015</h4>
+        <p>
+            Hello readers! Over the course of Weeks 2 and 3 of DBC Phase 0, I have devoted a lot of time to learning HTML and CSS. HTML (HyperText Markup Language) is a markup language that defines the structure and content of a webpage. CSS (Cascading Style Sheets) complements HTML and is used to format and style the visual appearance of a webpage.
+        </p>
+        <p>
+            One important concept to understand when learning about web development is the CSS Box Model. This notion states that each element of HTML is essentially a box or container that encompasses certain content (say an image or text). Here's a diagram of the box model(T=top, R=right, B=bottom, and L=left):
+        </p>
+        <img src="imgs/css-boxmodel.png" alt=CSS Box-Model>
+        <p>
+            As you can see, the Box Model is organized into four sections: the margin, the border, the padding, and the content. The margin is the space between the perimeter of the webpage and the border surrounding the HTML element. The border sits between the margin and the padding. The padding is the space between the content and the border. Last, but not least, is the content, which is surrounded by the padding.
+        </p> 
+        <p>
+            In order to use the margin, border, or padding properties, it is imperative to understand the syntax of CSS. A line of CSS is broken-down into three components: the selector, the property, and the value. The selector is the HTML element that you want to style, without the "< >." The property is the aspect of the selector that you want to change (margin, border, and padding are all properties). The value is how you want to set the property. The syntax looks like this:
+        <img src="imgs/css-syntax.png" alt=CSS Syntax>
+        </p>
+        <p>
+            To set the margin or padding of an element you can use the the following properties accompanied by a specified value: margin/padding-top, margin/padding-right, margin/padding-bottom, and/or, margin/padding-left. In the case of margin and padding, the values are numerical (i.e. - 100px = 100 pixel width or you can use percentages, so 50% specifies 50% of the width of the containing element). An easy way to set all four sides of the margin or padding of an element is to simply list them in clockwise order (ex: margin/padding: 1px 2px 3px 4px;). Additionally, margin: auto; centers the desired element horizontally, splitting the space on either side of the element equally.
+        </p>
+        <p>
+            Borders can be modified a variety of ways. You can set a border's style (i.e. - dotted, dashed, solid, no border etc.), border-width (stated with a numerical value in pixels), and border-color (click this link to see the breadth of colors you can choose from <a href="http://www.color-hex.com/">Hexadecimal Colors</a>).
+        </p>
+        <p>
+            Lets use this website as an example of the Box Model to solidify your understanding. The white space surrounding and separating the two green boxes is the margin. The two green boxes do not have a border (i.e. - border: none;) The padding is the green space surrounding the content (the text and the images). Hopefully this blog provided some quality insight into margin, padding, and border, three wdiely-used and extremely versatile CSS properties.
+        </p>
+    </section>
+  </body>
+</html>
