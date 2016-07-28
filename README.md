@@ -1,2 +1,2 @@
-# JonSchwartz93.github.io
-My DBC phase 0 github pages site!
+# portfolio-website
+<h1>This is my personal website showcasing the work I've accomplished!</h1>
